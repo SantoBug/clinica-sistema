@@ -21,11 +21,11 @@ Maven — gerenciador de dependências<br>
 
 
 🗄️ Estrutura do projeto
-src/
-├── conexao/        → Conexão com o banco de dados
-├── modelo/         → Classes que representam os dados (Paciente, Consulta)
-├── dao/            → Comunicação com o banco (CRUD)
-└── tela/           → Interface gráfica (Java Swing)
+src/<br>
+├── conexao/        → Conexão com o banco de dados<br>
+├── modelo/         → Classes que representam os dados (Paciente, Consulta)<br>
+├── dao/            → Comunicação com o banco (CRUD)<br>
+└── tela/           → Interface gráfica (Java Swing)<br>
 
 🚀 Como executar
 
@@ -38,12 +38,12 @@ Crie o banco de dados no MySQL
 sqlCREATE DATABASE clinica;
 USE clinica;
 
-CREATE TABLE paciente (
-    id        INT PRIMARY KEY AUTO_INCREMENT,
-    nome      VARCHAR(100) NOT NULL,
-    cpf       VARCHAR(14)  NOT NULL UNIQUE,
-    telefone  VARCHAR(15),
-    email     VARCHAR(100)
+CREATE TABLE paciente (<br>
+    id        INT PRIMARY KEY AUTO_INCREMENT,<br>
+    nome      VARCHAR(100) NOT NULL,<br>
+    cpf       VARCHAR(14)  NOT NULL UNIQUE,<br>
+    telefone  VARCHAR(15),<br>
+    email     VARCHAR(100)<br>
 );
 
 Configure a conexão em ConexaoBanco.java
