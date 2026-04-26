@@ -4,11 +4,11 @@ Desenvolvi esse projeto para praticar e consolidar meus conhecimentos em Java, J
 
 💻 Tecnologias utilizadas
 
-Java 21 — linguagem principal
-Java Swing — interface gráfica
-MySQL — banco de dados
-JDBC — conexão Java com o banco
-Maven — gerenciador de dependências
+Java 21 — linguagem principal<br>
+Java Swing — interface gráfica<br>
+MySQL — banco de dados<br>
+JDBC — conexão Java com o banco<br>
+Maven — gerenciador de dependências<br>
 
 
 ⚙️ Funcionalidades
