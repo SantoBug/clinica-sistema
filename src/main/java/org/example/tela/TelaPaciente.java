@@ -37,7 +37,7 @@ public class TelaPaciente  extends JFrame{
     public TelaPaciente() {
         setTitle("🏥 Sistema de Clínica — Pacientes");
         setSize(800, 500);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
 

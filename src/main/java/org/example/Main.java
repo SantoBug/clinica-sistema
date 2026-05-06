@@ -1,9 +1,12 @@
 package org.example;
 
-import org.example.tela.TelaPaciente;
+
+import org.example.tela.TelaPrincipal;
 
 public class Main {
-    public static void main(String arg[]) {
-        new TelaPaciente();
+    public static void main(String[] args) {
+        new TelaPrincipal();
+
+
     }
 }
